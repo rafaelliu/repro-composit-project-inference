@@ -1,0 +1,9 @@
+{
+  "name": "@mono/pkg2",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": "./build/index.js",
+  "dependencies": {
+    "@mono/pkg1": "workspace:^"
+  }
+}
